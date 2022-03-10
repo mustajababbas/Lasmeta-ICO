@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awsome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/aos-master/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <title>Manager</title>
+</head>
+
+<body>
+
+
+    <div class="position-sticky top-0" style="z-index: 99;">
+        <div class="position-absolute w-100">
+
+            <div class="container-fluid top-header">
+
+                <h5>LasMeta Token Sale will start on 17.01.2022
+                </h5>
+
+
+            </div>
+
+
+            <nav class="navbar navbar-expand-lg navbar-light nav-custom">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="./index.html">
+
+                        <img src="images/ddlogo.png" class="logo d-none d-sm-block">
+                        <img src="images/favicon.png" class="logo-mobile d-block d-sm-none">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#how-to-buy">How To Buy?</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#tokenomics">Tokenomics</a>
+                            </li>
+
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html#feature">Feature</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#partner">Our Partners</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#roadmap">Roadmap</a>
+                            </li>
+
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#team">Team</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="vendor/LasMeta-Token.pdf" target="_blank">Whitepaper</a>
+                            </li>
+
+                        </ul>
+
+
+
+
+                    </div>
+
+                    <div class="header-right">
+
+
+                        <div class="social social-header">
+
+                            <ul>
+
+                                <li>
+                                    <a href="https://twitter.com/Lasmetaio"><i class="fab fa-twitter"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://t.me/lasmetaio_announcements"><i class="fab fa-telegram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCDrBMfad1clTFGManHtV4Aw"><i
+                                            class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://discord.gg/8TktjfzB"><i class="fab fa-discord"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://lasmetaio.medium.com/"><i class="fab fa-medium-m"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="javascript:void(0)" onclick="loadWeb3()" class="custom-btn"
+                                        id="connect-wallet">Connect
+                                        Wallet</a>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </nav>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <section class="manager-section">
+
+        <div class="container">
+
+
+
+
+            <div class="newsletter-main">
+
+
+
+                <div class="row h-100 justify-content-center">
+
+                    <div class="col-lg-6 main-column-one  d-flex justify-content-center flex-column">
+                        <div class="current-balance mt-5 text-center">
+                        </div>
+
+                        <div class="sale-box form-section">
+                            <div class="section-title mt-5" data-aos="fade-up" data-aos-duration="1000">
+
+
+                                <h2 class="pt-5">Transfer</h2>
+
+
+                            </div>
+
+                            <div class="newsletter mt-4" data-aos="fade-up" data-aos-duration="1000">
+
+                                <form action="" method="" id="Transfer">
+
+                                    <div class="row justify-content-center gy-3">
+
+
+
+                                        <div class="col-lg-12">
+                                            <input type="text" placeholder="Address Recipient" name="recipient"
+                                                value="">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <input type="text" placeholder="Amount" name="amount" value="">
+                                        </div>
+
+
+                                        <div class="col-lg-12 d-flex justify-content-end mt-3">
+                                            <input type="submit" value="Submit" class="custom-btn" name="submit">
+                                        </div>
+
+
+
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="newsletter-main">
+
+
+
+                <div class="row h-25 justify-content-center">
+
+                    <div class="col-lg-6 main-column-one  d-flex justify-content-center flex-column">
+
+                        <div class="sale-box form-section">
+                            <div class="section-title " data-aos="fade-up" data-aos-duration="1000">
+
+
+                                <h2 class="pt-5">Token Sale</h2>
+
+
+                            </div>
+
+                            <div class="newsletter " data-aos="fade-up" data-aos-duration="1000">
+
+
+                                <div class="row justify-content-center gy-3">
+
+
+
+                                    <div class="col-lg-12">
+                                        <input type="text" placeholder="Lock Time" name="lockTime" value="">
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <input type="text" placeholder="Rate" name="rate" value="">
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <input type="text" placeholder="Ammount" name="percent" value="">
+                                    </div>
+
+
+                                    <div class="col-lg-12">
+                                        <input type="text" placeholder="min" name="min" value="">
+                                    </div>
+
+
+
+                                    <div class="col-lg-12 d-flex justify-content-end mt-3">
+                                        <input type="submit" onclick="manager()" value="Submit" class="custom-btn"
+                                            name="submit">
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+
+        <div class="container">
+
+            <div class="social social-footer">
+
+                <ul>
+
+                    <li>
+                        <a href="https://twitter.com/Lasmetaio"><i class="fab fa-twitter"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://t.me/lasmetaio_announcements"><i class="fab fa-telegram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCDrBMfad1clTFGManHtV4Aw"><i
+                                class="fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://discord.gg/8TktjfzB"><i class="fab fa-discord"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://lasmetaio.medium.com/"><i class="fab fa-medium-m"></i></a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vendor/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="vendor/aos-master/dist/aos.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
+    <script src="./js/chain/addresses.js"></script>
+    <script src="./js/chain/LASM.js"></script>
+    <script src="./js/chain/Manager.js"></script>
+    <script src="./js/chain/Crowdsale.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+    <script>
+
+
+        AOS.init();
+
+    </script>
+
+
+
+</body>
+
+</html>
